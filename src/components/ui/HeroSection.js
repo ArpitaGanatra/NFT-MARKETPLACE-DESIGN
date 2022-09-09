@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
-import heroImg from "../../images/hero.jpg";
+import heroImg from "../../assets/images/hero.jpg";
 import "./hero-section.css";
 
 const HeroSection = () => {
