@@ -21,8 +21,7 @@ const SellerSection = () => {
                 <div className="seller__img">
                   <img
                     src={item.sellerImg}
-                    alt=""
-                    srcset=""
+                    alt="seller image"
                     className="w-100"
                   />
                 </div>
