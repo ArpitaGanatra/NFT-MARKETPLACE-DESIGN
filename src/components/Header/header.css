@@ -7,6 +7,12 @@
   left: 0;
   z-index: 1111111;
 }
+
+.header__shrink {
+  background: #14141f;
+  box-shadow: 2px 2px 4px -2px #e250e5;
+}
+
 .navigation {
   display: flex;
   align-items: center;
