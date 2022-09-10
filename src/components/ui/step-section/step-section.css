@@ -1,0 +1,41 @@
+.step__section-title {
+  color: #fff;
+}
+
+.single__step__item {
+  background-color: #343444;
+  padding: 30px;
+  border-radius: 5px;
+  height: 100%;
+}
+.single__step__item span {
+  margin-bottom: 15px;
+}
+
+.single__step__item span i {
+  background: #5142fc;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.step__item__content {
+  margin-top: 20px;
+}
+
+.step__item__content h5 {
+  font-size: 1.25rem;
+}
+
+.step__item__content h5 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.step__item__content p {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 85%;
+  line-height: 35px;
+}
