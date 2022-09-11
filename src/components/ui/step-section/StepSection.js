@@ -40,7 +40,7 @@ const StepSection = () => {
           </Col>
 
           {STEP__DATA.map((item, index) => (
-            <Col lg="3" md="4" sm="6" xs="6" key={index} className="mb-4">
+            <Col lg="3" md="6" sm="6" key={index} className="mb-4">
               <div className="single__step__item">
                 <span>
                   <i class={item.icon}></i>

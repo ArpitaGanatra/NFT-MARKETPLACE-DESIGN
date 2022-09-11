@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./nftCard.css";
 
 const NftCard = (props) => {
   const { title, id, currentBid, creatorImg, imgUrl, creator } = props.item;
@@ -13,7 +14,7 @@ const NftCard = (props) => {
         <h5 className="nft__title">
           <Link to={`/market/${id}`}>{title}</Link>
         </h5>
-        <div className="creator__info-wrapper d-flex gap-3">
+        <div className="creator__info-wrapper d-flex gap-2">
           <div className="creator__img">
             <img src={creatorImg} alt="" className="w-100" />
           </div>
