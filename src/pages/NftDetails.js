@@ -24,7 +24,7 @@ const NftDetails = () => {
                 className="w-100 single__nft-img"
               />
             </Col>
-            <Col lg="6">
+            <Col lg="6" md="6">
               <div className="single__nft__content">
                 <h2>{singleNFT.title}</h2>
 

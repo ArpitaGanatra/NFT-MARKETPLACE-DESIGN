@@ -81,3 +81,28 @@
 .singleNft-btn i {
   color: #fff;
 }
+
+@media only screen and (max-width: 991px) {
+  .single_nft__content h2 {
+    font-size: 1.3rem;
+  }
+
+  .nft__creator {
+    width: 100%;
+  }
+
+  .single__nft__content p {
+    font-size: 0.8rem;
+    line-height: 28px;
+  }
+
+  .singleNft-btn a {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .single_nft__content h2 {
+    margin-top: 15px !important;
+  }
+}

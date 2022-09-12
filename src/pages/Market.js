@@ -17,7 +17,7 @@ const Market = () => {
           <Row>
             <Col lg="12" className="mb-5">
               <div className="market__product__filter d-flex align-items-center justify-content-between">
-                <div className="filter__left d-flex align-items-center gap-5">
+                <div className="filter__left d-flex align-items-center gap-3">
                   <div className="all__category__filter">
                     <select onChange={handleCategory}>
                       <option>All Categories</option>
