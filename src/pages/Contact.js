@@ -1,7 +1,58 @@
 import React from "react";
+import { Col, Container, Row } from "reactstrap";
+import CommonSection from "../components/ui/common-section/CommonSection";
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <>
+      <CommonSection title="Contact" />
+      <section>
+        <Container>
+          <Row>
+            <Col lg="6" md="6" className="m-auto text-center">
+              <h2>Drop a message</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
+                totam reiciendis. Asperiores rerum repellendus nam.
+              </p>
+              <div className="contact mt-4">
+                <form action="">
+                  <div className="form__input">
+                    <input type="text" placeholder="Enter your name" />
+                  </div>
+                  <div className="form__input">
+                    <input type="email" placeholder="Enter your email" />
+                  </div>
+                  <div className="form__input">
+                    <input type="text" placeholder="Enter subject" />
+                  </div>
+                  <div className="form__input">
+                    <textarea
+                      type="text"
+                      rows="7"
+                      placeholder="Write message"
+                    />
+                  </div>
+
+                  <button
+                    className="send__btn"
+                    style={{
+                      border: "none",
+                      padding: "7px 25px",
+                      borderRadius: "5px",
+                      marginTop: "20px",
+                    }}
+                  >
+                    Send a Message
+                  </button>
+                </form>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </>
+  );
 };
 
 export default Contact;

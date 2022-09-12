@@ -103,6 +103,6 @@
 
 @media only screen and (max-width: 576px) {
   .single_nft__content h2 {
-    margin-top: 15px !important;
+    margin-top: 15px;
   }
 }
