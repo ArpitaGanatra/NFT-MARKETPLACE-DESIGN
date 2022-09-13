@@ -147,7 +147,10 @@ const Footer = () => {
           </Col>
 
           <Col lg="12" className="mt-4 text-center">
-            <p className="copyright">Made with ❤️ by Arpita Ganatra</p>
+            <p className="copyright">
+              Made with ❤️ by{" "}
+              <a href="https://github.com/ArpitaGanatra">Arpita Ganatra</a>
+            </p>
           </Col>
         </Row>
       </Container>

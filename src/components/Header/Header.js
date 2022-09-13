@@ -79,7 +79,7 @@ const Header = () => {
           <div className="nav__right d-flex align-items-center gap-5">
             <button className="btn d-flex gap-2 align-items-center">
               <i class="ri-wallet-line"></i>
-              <Link to="/wallet">Connect Wallet</Link>
+              <Link to="/">Connect Wallet</Link>
             </button>
             <span className="mobile__menu">
               <i class="ri-menu-line" onClick={toggleMenu}></i>
